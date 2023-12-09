@@ -62,7 +62,7 @@ body {
     flex-direction: column;
     padding: 0 40px;
     text-align: center;
-    font-size: 14px;
+    font-size: 10px;
     transform: height 0.5s;
 }
 
@@ -75,14 +75,15 @@ body {
 .layer a {
     margin-top: 30px;
     text-decoration: none;
-    font-size: 25px;
-    line-height: 60px;
+    font-size: 10px;
+    line-height: 20px;
     width: 50px;
     color: #ffffff; /* White text */
     height: 50px;
     border-radius: 50%;
     text-align: center;
 }
+
 
 .work:hover img {
     transform: scale(1.1);

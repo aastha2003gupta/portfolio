@@ -257,7 +257,7 @@ nav ul li a:hover::after {
     flex-direction: column;
     padding: 0 40px;
     text-align: center;
-    font-size: 14px;
+    font-size: 10px;
     transform: height 0.5s;
 }
 
@@ -270,8 +270,8 @@ nav ul li a:hover::after {
 .layer a {
     margin-top: 30px;
     text-decoration: none;
-    font-size: 25px;
-    line-height: 60px;
+    font-size: 15px;
+    line-height: 20px;
     width: 50px;
     color: #ffffff; /* White text */
     height: 50px;
@@ -304,15 +304,7 @@ nav ul li a:hover::after {
 }
 
 
-/*div,
-p,
-li{
-    animation: fade linear both;
-    animation-timeline: view();
-    animation-range: entry 65% cover 35%;
-}
 
-/* CSS for small screens */
 nav .fas {
     display: none;
 }
