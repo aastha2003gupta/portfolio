@@ -1,0 +1,123 @@
+* {
+    scroll-behavior: smooth;
+    margin: 0;
+    font-family: 'Raleway', sans-serif;
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+.subtitle{
+    margin-top: 60px;
+    font-size: 40px;
+    font-weight: 600;
+    margin-bottom: 10px;
+    color: var(--White, #FC3314);
+    text-align: center;
+
+}
+
+body {
+    background: var(--Dark, #1F1F1F); /* Dark background */
+    color: #ffffff; /* White text */
+    font-family: 'Raleway', sans-serif;
+}
+
+.worklist {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-gap: 40px;
+    margin-top: 50px;
+    padding: 50px;
+}
+
+.work {
+    border-radius: 10px;
+    position: relative;
+    overflow: hidden;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.1), -3px -3px 7px rgba(0,0,0, 0.2);
+
+}
+
+.work img {
+    width: 100%;
+    border-radius: 10px;
+    display: block;
+    transition: transform 0.5s;
+    
+}
+
+.layer {
+    width: 100%;
+    height: 0;
+    background: linear-gradient(rgba(12, 15, 10, 0.9), #FC3314); /* Glassy effect background */
+    border-radius: 10px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0 40px;
+    text-align: center;
+    font-size: 14px;
+    transform: height 0.5s;
+}
+
+.layer h3 {
+    font-weight: 500;
+    margin-bottom: 20px;
+    color: #ffffff; /* White text */
+}
+
+.layer a {
+    margin-top: 30px;
+    text-decoration: none;
+    font-size: 25px;
+    line-height: 60px;
+    width: 50px;
+    color: #ffffff; /* White text */
+    height: 50px;
+    border-radius: 50%;
+    text-align: center;
+}
+
+.work:hover img {
+    transform: scale(1.1);
+}
+
+.work:hover .layer {
+    height: 100%;
+}
+.seegit {
+    border-radius: 8px;
+    text-align: center;
+    width: 100%;
+    padding: 25px 0;
+    background: #000;
+    font-weight: 300;
+   
+}
+
+.seegit h3 {
+    color: #fff;
+    margin-bottom: 10px;
+}
+
+.github-link {
+    text-decoration: none;
+    color: #fff; /* GitHub link color */
+    transition: transform 0.5s;
+}
+
+.github-link:hover {
+    color: #FC3314;
+    transform: translateY(-5px);
+}
+.back{
+    text-align: center;
+    color: #fff;
+    font-size: 20px;
+}
