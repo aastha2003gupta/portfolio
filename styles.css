@@ -257,7 +257,7 @@ nav ul li a:hover::after {
     flex-direction: column;
     padding: 0 40px;
     text-align: center;
-    font-size: 10px;
+    font-size: 13px;
     transform: height 0.5s;
 }
 
@@ -266,11 +266,14 @@ nav ul li a:hover::after {
     margin-bottom: 20px;
     color: #ffffff; /* White text */
 }
-
+.layer .icons{
+    display: flex;
+    gap: 5px;
+}
 .layer a {
-    margin-top: 30px;
+    margin-top: 15px;
     text-decoration: none;
-    font-size: 15px;
+    font-size: 16px;
     line-height: 20px;
     width: 50px;
     color: #ffffff; /* White text */
